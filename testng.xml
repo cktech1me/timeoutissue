@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><suite allow-return-values="false" configfailurepolicy="skip" data-provider-thread-count="10" group-by-instances="false" junit="false" name="Default Suite" parallel="false" preserve-order="true" skipfailedinvocationcounts="false" thread-count="5">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.testng.reporters.FailedReporter"/>
+  </listeners>
+  <suite-files>
+    <suite-file path="test1.xml"/>
+    <suite-file path="test2.xml"/>
+    <suite-file path="test3.xml"/>
+    <suite-file path="test4.xml"/>
+    <suite-file path="test5.xml"/>
+    <suite-file path="test6.xml"/>
+    <suite-file path="test7.xml"/>
+  </suite-files>
+</suite><!-- Default Suite -->

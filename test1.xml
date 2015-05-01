@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test1" parallel="tests" thread-count="1" time-out="30000" verbose="10">
+	<test name="Firefox-WINDOWS-7">
+		<classes>
+			<class name="timeoutTests" />
+		</classes>
+	</test>
+</suite>

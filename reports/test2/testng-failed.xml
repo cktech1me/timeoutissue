@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="Failed suite [test2]" parallel="tests">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.testng.reporters.FailedReporter"/>
+  </listeners>
+  <test name="Firefox-WINDOWS-7(failed)" parallel="tests">
+    <classes>
+      <class name="timeoutTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSuite"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- timeoutTests -->
+    </classes>
+  </test> <!-- Firefox-WINDOWS-7(failed) -->
+</suite> <!-- Failed suite [test2] -->
