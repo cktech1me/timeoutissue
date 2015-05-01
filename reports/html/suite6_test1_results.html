@@ -13,7 +13,7 @@
 <body>
 <h1>Firefox-WINDOWS-7</h1>
 <p>
-  Test duration: 30.659s
+  Test duration: 30.804s
 </p>
 
 
@@ -29,20 +29,27 @@
                   <span class="description" title="Suite Timeout Log and Report Test">testSuite</span>
       </td>
   <td class="duration">
-    3.646s
+    19.320s
   </td>
   <td class="result">
         
     
-        
+            <div class="testOutput">
+                        <p>FAILED - testSuite - test5 @ 10:51:11:647</p>
+                                <p>java.lang.AssertionError: Sleep Interrupt: We most likely hit the testng timeout set by suite.windows.timeout in build.properties</p>
+                                <p>  org.testng.Assert.fail(Assert.java:83) (with others of org.testng.* omitted)</p>
+                                <p>  timeoutTests.testSuite(Unknown Source)</p>
+                                <p>  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) (with others of java.lang.reflect.* or sun.reflect.* omitted)</p>
+                                <p>  java.util.concurrent.FutureTask.run(FutureTask.java:262)</p>
+                                <p>  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)</p>
+                                <p>  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)</p>
+                                <p>  java.lang.Thread.run(Thread.java:745)</p>
+                  </div>
+    
 
         <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Sleep Interrupt: We most likely hit the testng timeout set by suite.windows.timeout in build.properties</b></a><br />
     <div class="stackTrace" id="exception-0">
               org.testng.Assert.fail(Assert.java:83)<br />
-              org.testng.asserts.Assertion$5.doAssert(Assertion.java:176)<br />
-              org.testng.asserts.Assertion.executeAssert(Assertion.java:30)<br />
-              org.testng.asserts.Assertion.doAssert(Assertion.java:15)<br />
-              org.testng.asserts.Assertion.fail(Assertion.java:173)<br />
               timeoutTests.testSuite(Unknown Source)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)<br />

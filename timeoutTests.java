@@ -8,7 +8,8 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.asserts.Assertion;
+import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
@@ -27,8 +28,6 @@ public class timeoutTests {
 	String testName;
 	DesiredCapabilities dc;
 	String sessionId;
-	
-	Assertion hardAssert = null;	
 
 	public WebDriver getDriver() {
 		return threadDriver.get();
@@ -58,7 +57,7 @@ public class timeoutTests {
 			threadDriver.set(new RemoteWebDriver(new URL(this.hubURL), dc));
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
-			hardAssert.fail("MalformedURLException @ setup - ", e.getCause());
+			Assert.fail("MalformedURLException @ setup - ", e.getCause());
 		}
 
 		getDriver().get(this.automationUrl);
@@ -74,15 +73,14 @@ public class timeoutTests {
 		try {
 			Thread.sleep(this.TIMEOUT); // Sleep longer than suite level timeout
 		} catch (InterruptedException e) {
-			hardAssert = new Assertion();
-			hardAssert.fail("Sleep Interrupt: We most likely hit the testng timeout set by suite.windows.timeout in build.properties", e.getCause());
+			Assert.fail("Sleep Interrupt: We most likely hit the testng timeout set by suite.windows.timeout in build.properties", e.getCause());
 		}	
 	}
 	
 	@AfterClass()
 	public void tearDown() {
-		System.out.println("TEARDOWN - " 
-				+ this.sessionId);
+		Reporter.log("<p>" + "TEARDOWN - " + this.sessionId + "</p>");
+		System.out.println("TEARDOWN - " + this.sessionId);
 		getDriver().quit();
 	}
 }
