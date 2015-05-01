@@ -1,0 +1,150 @@
+     [echo] C:\views\NEXTGE~2/nxgui/NxGenWorkspace/results/cemgui/selenium.txt
+     [echo] Cleaning up the automation test classes and report directory
+   [delete] Deleting directory C:\views\NEXTGE~2\nxgui\NxGenWorkspace\build-utils\automation\bin
+   [delete] Deleting directory C:\views\NEXTGE~2\nxgui\NxGenWorkspace\results\cemgui\automation-testing-reports
+    [mkdir] Created dir: C:\views\NEXTGE~2\nxgui\NxGenWorkspace\build-utils\automation\bin
+    [mkdir] Created dir: C:\views\NEXTGE~2\nxgui\NxGenWorkspace\results\cemgui\automation-testing-reports
+    [mkdir] Created dir: C:\views\NEXTGE~2\nxgui\NxGenWorkspace\results\cemgui\automation-testing-reports\html
+     [echo] Compiling automation tests
+    [javac] Compiling 4 source files to C:\views\NEXTGE~2\nxgui\NxGenWorkspace\build-utils\automation\bin
+     [echo] Executing automation tests
+[selenium:testng] ...
+[selenium:testng] ... TestNG 6.8.2beta_20130330_0839 by Cédric Beust (cedric@beust.com)
+[selenium:testng] ...
+[selenium:testng] 
+[selenium:testng] [TestRunner] Running the tests in 'Firefox-WINDOWS-1' with parallel mode:tests
+[selenium:testng] [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@2896b40c priority: 10
+[selenium:testng] [TestClass] Creating TestClass for [ClassImpl class=timeoutTests]
+[selenium:testng] [TestClass] Adding method timeoutTests.testSuite()[pri:0, instance:null] on TestClass class timeoutTests
+[selenium:testng] [XmlMethodSelector] Including method setUp()
+[selenium:testng] [XmlMethodSelector] Including method tearDown()
+[selenium:testng] [XmlMethodSelector] Including method testSuite()
+[selenium:testng] [TestRunner] Running the tests in 'Firefox-WINDOWS-2' with parallel mode:tests
+[selenium:testng] [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@3515f1d3 priority: 10
+[selenium:testng] [TestClass] Creating TestClass for [ClassImpl class=timeoutTests]
+[selenium:testng] [TestClass] Adding method timeoutTests.testSuite()[pri:0, instance:null] on TestClass class timeoutTests
+[selenium:testng] [XmlMethodSelector] Including method setUp()
+[selenium:testng] [XmlMethodSelector] Including method tearDown()
+[selenium:testng] [XmlMethodSelector] Including method testSuite()
+[selenium:testng] [TestRunner] Running the tests in 'Firefox-WINDOWS-3' with parallel mode:tests
+[selenium:testng] [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@7d7ca0f5 priority: 10
+[selenium:testng] [TestClass] Creating TestClass for [ClassImpl class=timeoutTests]
+[selenium:testng] [TestClass] Adding method timeoutTests.testSuite()[pri:0, instance:null] on TestClass class timeoutTests
+[selenium:testng] [XmlMethodSelector] Including method setUp()
+[selenium:testng] [XmlMethodSelector] Including method tearDown()
+[selenium:testng] [XmlMethodSelector] Including method testSuite()
+[selenium:testng] [TestRunner] Running the tests in 'Firefox-WINDOWS-4' with parallel mode:tests
+[selenium:testng] [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@68bd9607 priority: 10
+[selenium:testng] [TestClass] Creating TestClass for [ClassImpl class=timeoutTests]
+[selenium:testng] [TestClass] Adding method timeoutTests.testSuite()[pri:0, instance:null] on TestClass class timeoutTests
+[selenium:testng] [XmlMethodSelector] Including method setUp()
+[selenium:testng] [XmlMethodSelector] Including method tearDown()
+[selenium:testng] [XmlMethodSelector] Including method testSuite()
+[selenium:testng] [TestRunner] Running the tests in 'Firefox-WINDOWS-5' with parallel mode:tests
+[selenium:testng] [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@57a65cf1 priority: 10
+[selenium:testng] [TestClass] Creating TestClass for [ClassImpl class=timeoutTests]
+[selenium:testng] [TestClass] Adding method timeoutTests.testSuite()[pri:0, instance:null] on TestClass class timeoutTests
+[selenium:testng] [XmlMethodSelector] Including method setUp()
+[selenium:testng] [XmlMethodSelector] Including method tearDown()
+[selenium:testng] [XmlMethodSelector] Including method testSuite()
+[selenium:testng] [TestRunner] Running the tests in 'Firefox-WINDOWS-6' with parallel mode:tests
+[selenium:testng] [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@24f84033 priority: 10
+[selenium:testng] [TestClass] Creating TestClass for [ClassImpl class=timeoutTests]
+[selenium:testng] [TestClass] Adding method timeoutTests.testSuite()[pri:0, instance:null] on TestClass class timeoutTests
+[selenium:testng] [XmlMethodSelector] Including method setUp()
+[selenium:testng] [XmlMethodSelector] Including method tearDown()
+[selenium:testng] [XmlMethodSelector] Including method testSuite()
+[selenium:testng] [TestRunner] Running the tests in 'Firefox-WINDOWS-7' with parallel mode:tests
+[selenium:testng] [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@41f4ec39 priority: 10
+[selenium:testng] [TestClass] Creating TestClass for [ClassImpl class=timeoutTests]
+[selenium:testng] [TestClass] Adding method timeoutTests.testSuite()[pri:0, instance:null] on TestClass class timeoutTests
+[selenium:testng] [XmlMethodSelector] Including method setUp()
+[selenium:testng] [XmlMethodSelector] Including method tearDown()
+[selenium:testng] [XmlMethodSelector] Including method testSuite()
+[selenium:testng] [TestNG] Starting executor for all suites
+[selenium:testng] [SuiteRunner] Created 7 TestRunners
+[selenium:testng] [ThreadUtil] Starting executor timeOut:30000ms workers:7 threadPoolSize:5
+[selenium:testng] [[SuiteWorker]] Running XML Test 'Firefox-WINDOWS-1' in Parallel
+[selenium:testng] [TestRunner] Running test Firefox-WINDOWS-1 on 1  classes,  included groups:[] excluded groups:[]
+[selenium:testng] ===== Test class
+[selenium:testng] timeoutTests
+[selenium:testng]   @BeforeClass timeoutTests.setUp()[pri:0, instance:timeoutTests@52f63387]
+[selenium:testng]     @Test timeoutTests.testSuite()[pri:0, instance:timeoutTests@52f63387]
+[selenium:testng]   @AfterClass timeoutTests.tearDown()[pri:0, instance:timeoutTests@52f63387]
+[selenium:testng] ======
+[selenium:testng] [[SuiteWorker]] Running XML Test 'Firefox-WINDOWS-2' in Parallel
+[selenium:testng] [TestRunner] Running test Firefox-WINDOWS-2 on 1  classes,  included groups:[] excluded groups:[]
+[selenium:testng] ===== Test class
+[selenium:testng] timeoutTests
+[selenium:testng]   @BeforeClass timeoutTests.setUp()[pri:0, instance:timeoutTests@24456977]
+[selenium:testng]     @Test timeoutTests.testSuite()[pri:0, instance:timeoutTests@24456977]
+[selenium:testng]   @AfterClass timeoutTests.tearDown()[pri:0, instance:timeoutTests@24456977]
+[selenium:testng] ======
+[selenium:testng] [[SuiteWorker]] Running XML Test 'Firefox-WINDOWS-3' in Parallel
+[selenium:testng] [TestRunner] Running test Firefox-WINDOWS-3 on 1  classes,  included groups:[] excluded groups:[]
+[selenium:testng] ===== Test class
+[selenium:testng] timeoutTests
+[selenium:testng]   @BeforeClass timeoutTests.setUp()[pri:0, instance:timeoutTests@12b7530]
+[selenium:testng]     @Test timeoutTests.testSuite()[pri:0, instance:timeoutTests@12b7530]
+[selenium:testng]   @AfterClass timeoutTests.tearDown()[pri:0, instance:timeoutTests@12b7530]
+[selenium:testng] ======
+[selenium:testng] [[SuiteWorker]] Running XML Test 'Firefox-WINDOWS-4' in Parallel
+[selenium:testng] [TestRunner] Running test Firefox-WINDOWS-4 on 1  classes,  included groups:[] excluded groups:[]
+[selenium:testng] ===== Test class
+[selenium:testng] timeoutTests
+[selenium:testng]   @BeforeClass timeoutTests.setUp()[pri:0, instance:timeoutTests@76c4db49]
+[selenium:testng]     @Test timeoutTests.testSuite()[pri:0, instance:timeoutTests@76c4db49]
+[selenium:testng]   @AfterClass timeoutTests.tearDown()[pri:0, instance:timeoutTests@76c4db49]
+[selenium:testng] ======
+[selenium:testng] [[SuiteWorker]] Running XML Test 'Firefox-WINDOWS-5' in Parallel
+[selenium:testng] [TestRunner] Running test Firefox-WINDOWS-5 on 1  classes,  included groups:[] excluded groups:[]
+[selenium:testng] ===== Test class
+[selenium:testng] timeoutTests
+[selenium:testng]   @BeforeClass timeoutTests.setUp()[pri:0, instance:timeoutTests@6b1fff2b]
+[selenium:testng]     @Test timeoutTests.testSuite()[pri:0, instance:timeoutTests@6b1fff2b]
+[selenium:testng]   @AfterClass timeoutTests.tearDown()[pri:0, instance:timeoutTests@6b1fff2b]
+[selenium:testng] ======
+[selenium:testng] [Invoker 1560965295] Keeping method timeoutTests.setUp()[pri:0, instance:timeoutTests@6b1fff2b] for class [TestClass name=class timeoutTests]
+[selenium:testng] [Invoker 1425370987] Keeping method timeoutTests.setUp()[pri:0, instance:timeoutTests@24456977] for class [TestClass name=class timeoutTests]
+[selenium:testng] [Invoker 1483481313] Keeping method timeoutTests.setUp()[pri:0, instance:timeoutTests@52f63387] for class [TestClass name=class timeoutTests]
+[selenium:testng] [Invoker 1095321208] Keeping method timeoutTests.setUp()[pri:0, instance:timeoutTests@76c4db49] for class [TestClass name=class timeoutTests]
+[selenium:testng] [Invoker 14218329] Keeping method timeoutTests.setUp()[pri:0, instance:timeoutTests@12b7530] for class [TestClass name=class timeoutTests]
+[selenium:testng] [Invoker 1095321208] Invoking @BeforeClass timeoutTests.setUp()[pri:0, instance:timeoutTests@76c4db49]
+[selenium:testng] [Invoker 1483481313] Invoking @BeforeClass timeoutTests.setUp()[pri:0, instance:timeoutTests@52f63387]
+[selenium:testng] [Invoker 1425370987] Invoking @BeforeClass timeoutTests.setUp()[pri:0, instance:timeoutTests@24456977]
+[selenium:testng] [Invoker 1560965295] Invoking @BeforeClass timeoutTests.setUp()[pri:0, instance:timeoutTests@6b1fff2b]
+[selenium:testng] [Invoker 14218329] Invoking @BeforeClass timeoutTests.setUp()[pri:0, instance:timeoutTests@12b7530]
+[selenium:testng] SETUP - 054228b2-6cfc-475f-8429-db0de17892c3
+[selenium:testng] [Invoker 14218329] Invoking timeoutTests.testSuite
+[selenium:testng] SETUP - 0e3e0b25-a465-42ab-bd29-56ae41232d1c
+[selenium:testng] [Invoker 1560965295] Invoking timeoutTests.testSuite
+[selenium:testng] SETUP - c1eeee57-6c1c-4fcb-8cb5-5fc81faccc9e
+[selenium:testng] [Invoker 1095321208] Invoking timeoutTests.testSuite
+[selenium:testng] SETUP - 51c98caa-a1aa-49db-a147-1d921ec2e35e
+[selenium:testng] [Invoker 1483481313] Invoking timeoutTests.testSuite
+[selenium:testng] 
+[selenium:testng] ===============================================
+[selenium:testng] Default Suite
+[selenium:testng] Total tests run: 0, Failures: 0, Skips: 0
+[selenium:testng] ===============================================
+[selenium:testng] 
+[selenium:testng] [Invoker 1483481313] Keeping method timeoutTests.tearDown()[pri:0, instance:timeoutTests@52f63387] for class [TestClass name=class timeoutTests]
+[selenium:testng] [Invoker 1483481313] Invoking @AfterClass timeoutTests.tearDown()[pri:0, instance:timeoutTests@52f63387]
+[selenium:testng] TEARDOWN - 51c98caa-a1aa-49db-a147-1d921ec2e35e
+[selenium:testng] [Invoker 1095321208] Keeping method timeoutTests.tearDown()[pri:0, instance:timeoutTests@76c4db49] for class [TestClass name=class timeoutTests]
+[selenium:testng] [Invoker 1095321208] Invoking @AfterClass timeoutTests.tearDown()[pri:0, instance:timeoutTests@76c4db49]
+[selenium:testng] TEARDOWN - c1eeee57-6c1c-4fcb-8cb5-5fc81faccc9e
+[selenium:testng] [Invoker 1560965295] Keeping method timeoutTests.tearDown()[pri:0, instance:timeoutTests@6b1fff2b] for class [TestClass name=class timeoutTests]
+[selenium:testng] [Invoker 1560965295] Invoking @AfterClass timeoutTests.tearDown()[pri:0, instance:timeoutTests@6b1fff2b]
+[selenium:testng] TEARDOWN - 0e3e0b25-a465-42ab-bd29-56ae41232d1c
+[selenium:testng] [Invoker 14218329] Keeping method timeoutTests.tearDown()[pri:0, instance:timeoutTests@12b7530] for class [TestClass name=class timeoutTests]
+[selenium:testng] [Invoker 14218329] Invoking @AfterClass timeoutTests.tearDown()[pri:0, instance:timeoutTests@12b7530]
+[selenium:testng] TEARDOWN - 054228b2-6cfc-475f-8429-db0de17892c3
+[selenium:testng] [TestNG] Time taken by org.uncommons.reportng.HTMLReporter@11496fc2: 77 ms
+[selenium:testng] [TestNG] Time taken by org.uncommons.reportng.HTMLReporter@65e7deb6: 40 ms
+[selenium:testng] [TestNG] Time taken by org.uncommons.reportng.HTMLReporter@476127f4: 35 ms
+[selenium:testng] [TestNG] Time taken by org.uncommons.reportng.HTMLReporter@77e64656: 24 ms
+[selenium:testng] [TestNG] Time taken by org.uncommons.reportng.HTMLReporter@59ceb2fe: 23 ms
+[selenium:testng] [TestNG] Time taken by org.uncommons.reportng.HTMLReporter@2f13f599: 25 ms
+[selenium:testng] [TestNG] Time taken by org.uncommons.reportng.HTMLReporter@6c48326b: 30 ms
+[selenium:testng] The tests failed.

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" verbose="10" time-out="30000" parallel="tests" thread-count="5">
+	<test name="Firefox-WINDOWS-1">
+		<classes>
+			<class name="timeoutTests" />
+		</classes>
+	</test>
+	<test name="Firefox-WINDOWS-2">
+		<classes>
+			<class name="timeoutTests" />
+		</classes>
+	</test>
+	<test name="Firefox-WINDOWS-3">
+		<classes>
+			<class name="timeoutTests" />
+		</classes>
+	</test>
+	<test name="Firefox-WINDOWS-4">
+		<classes>
+			<class name="timeoutTests" />
+		</classes>
+	</test>
+	<test name="Firefox-WINDOWS-5">
+		<classes>
+			<class name="timeoutTests" />
+		</classes>
+	</test>
+	<test name="Firefox-WINDOWS-6">
+		<classes>
+			<class name="timeoutTests" />
+		</classes>
+	</test>
+	<test name="Firefox-WINDOWS-7">
+		<classes>
+			<class name="timeoutTests" />
+		</classes>
+	</test>
+</suite>
